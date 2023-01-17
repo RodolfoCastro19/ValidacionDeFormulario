@@ -30,8 +30,24 @@ const mensajesDeError = {
         patternMismatch: 'Entre 6-12 caracteres al menos 1 mayuscula, 1 minuscula, 1 numero; no puede contener caracteres especiales'
     },
     nacimiento: {
-        valueMissing: 'este campo no puede estar vacio',
+        valueMissing: 'Este campo no puede estar vacio',
         customError: 'Debes tener al menos 18 años',
+    },
+    numero: {
+        valueMissing: 'Ingrese un número de teléfono',
+        patternMismatch: 'El formato requerido es XXXXXXXXXX (10 numeros)'
+    },
+    direccion: {
+        valueMissing: 'Este campo no puede estar vacio',
+        patternMismatch: 'La dirección debe contener entre 10 a 40 caracteres',
+    },
+    comuna: {
+        valueMissing: 'Este campo no puede estar vacio',
+        patternMismatch: 'La comuna debe contener entre 3 a 30 caracteres',
+    },
+    region: {
+        valueMissing: 'Este campo no puede estar vacio',
+        patternMismatch: 'La región debe contener entre 3 a 30 caracteres',
     },
 };
 
